@@ -1,0 +1,38 @@
+body {
+    padding: 30px;
+}
+
+div.bg1 {
+    background-color: #563d7c;
+    height: 50px;
+    border: 1px solid #fff;
+}
+
+div.bg2 {
+    background-color: #41a156;
+    height: 50px;
+    border: 1px solid #fff;
+}
+
+.branco {
+    color: #fff;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.col{
+    /* background-color: brown; */
+    /* border: 1px solid black; */
+}
+
+div{
+    margin-bottom: 10px;
+}
