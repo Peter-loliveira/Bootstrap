@@ -28,11 +28,41 @@ hr {
     border-width: 1px;
 }
 
-.col{
-    /* background-color: brown; */
-    /* border: 1px solid black; */
-}
-
 div{
     margin-bottom: 10px;
+}
+
+.card{
+    /* background-color: rgb(250, 223, 182); */
+}
+
+.card-body{
+    /* background-color: rgb(243, 161, 53); */
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.colunas{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+
+.colunas .card-body{
+    height: 200px;
+}
+
+.row{
+    border-bottom: 5px solid rgb(255, 166, 0);
+    padding-bottom: 5px;
+}
+
+.centralizado{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-opacity{
+    opacity: 50%;
 }
