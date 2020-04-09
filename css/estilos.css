@@ -28,41 +28,54 @@ hr {
     border-width: 1px;
 }
 
-div{
+div {
     margin-bottom: 10px;
 }
 
-.card{
+.card {
     /* background-color: rgb(250, 223, 182); */
 }
 
-.card-body{
+.card-body {
     /* background-color: rgb(243, 161, 53); */
     border: 1px solid black;
     margin: 5px;
     border-radius: 2px;
 }
 
-.colunas{
-   display: flex;
-   justify-content: space-between;
-   text-align: center;
+.colunas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.colunas .card-body{
+.colunas .card-body {
     height: 200px;
 }
 
-.row{
+.row {
     border-bottom: 5px solid rgb(255, 166, 0);
     padding-bottom: 5px;
 }
 
-.centralizado{
+.centralizado {
     display: flex;
     justify-content: center;
 }
 
-.card-img-opacity{
+.card-img-opacity {
     opacity: 50%;
+}
+
+.flex {
+    display: flex;
+    margin-left: 10px;
+}
+
+.componente{
+    margin-left: 5px;
+}
+
+#componentes a{
+    width: 100%;
 }
