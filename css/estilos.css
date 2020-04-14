@@ -79,3 +79,9 @@ div {
 #componentes a{
     width: 100%;
 }
+
+.bordas{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
