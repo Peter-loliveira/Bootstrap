@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>MODAL</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/css.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="text-center text-uppercase">modal</h1>
+		<div class="row p-3 justify-content-center">
+			<div class="col-12 ">
+				<div>
+					<button class="btn btn-warning" type="button" data-toggle="modal" data-target="#modal2">
+						Disparar Modal LARGO
+					</button>
+				</div>
+				<br>
+				<div>
+					<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#modal3">
+					Disparar Modal PEQUENO
+				</button>
+			</div>
+
+				<div class="modal" id="modal1">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Titulo do Modal PRIMÁRIO</h5>
+								<button class="close" type="button" data-dismiss="modal" aria-label="Fechar">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>Corpo do meu MODAL PRIMÁRIO</p>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-success">Salvar alterações</button>
+								<button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="modal2">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Titulo do Modal SECUNDÁRIO LARGO</h5>
+								<button class="close" type="button" data-dismiss="modal" aria-label="Fechar">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>Corpo do meu MODAL SECUNDÁRIO LARGO</p>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-warning">Salvar alterações</button>
+								<button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="modal3">
+					<div class="modal-dialog modal-sm" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Titulo do Modal TERCIÁRIO PEQUENO</h5>
+								<button class="close" type="button" data-dismiss="modal" aria-label="Fechar">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>Corpo do meu MODAL TERCIÁRIO PEQUENO</p>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-primary">Salvar alterações</button>
+								<button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+		</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+		</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+		</script>
+		<script type="text/javascript">
+			$('#modal1').modal('show')
+		</script>
+	<!-- <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.bundle.js"></script> -->
+</body>
+
+</html>
